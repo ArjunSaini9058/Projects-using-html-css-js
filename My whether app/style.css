@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+/* container */
+.container{
+    width: 100%;
+    height: 800px;
+    background-size: cover; 
+    /* background-image: linear-gradient(45deg, rgb(3, 107, 160), rgb(34, 148, 159)); */
+    background-image: url("img/main.jpg");
+
+}
+
+/* navigation */
+nav{
+    padding: 20px;
+    color: rgb(222, 250, 10);
+}
+.title{
+    padding-left: 20px;
+    display: flex;
+    text-align: center;
+}
+/* main */
+.bg{
+    margin-top: 20px;
+    border-radius: 25px;
+    filter: brightness(70%);
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+/* .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1000px; */
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+#search {
+    /* background: none; */
+    font-size: 20px;
+    background-color:rgba(47, 100, 147, 0.388);
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: rgb(207, 207, 207);
+
+}
+button{
+    background: none;
+    border: none;
+    transition: all 0.1s ease-out;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    background: linear-gradient(rgb(154, 230, 156) 0%, rgb(156, 233, 153) 5%, rgb(156, 234, 158) 6%, rgb(156, 234, 158) 6%, rgb(160, 233, 154) 10%, rgb(163, 235, 149) 24%, rgb(173, 238, 146) 36%, rgb(173, 238, 144) 40%, rgb(179, 239, 143) 45%, rgb(176, 240, 143) 46%, rgb(180, 241, 138) 50%, rgb(183, 241, 141) 51%, rgb(182, 240, 138) 53%, rgb(186, 241, 139) 58%, rgb(196, 247, 128) 77%, rgb(201, 246, 129) 86%, rgb(204, 250, 126) 90%, rgb(203, 247, 124) 94%, rgb(207, 248, 126) 96%, rgb(207, 248, 126) 100%);
+}
+.ar{
+    color: rgb(14, 39, 100);
+}
+.arj{
+    color: rgb(14, 39, 100);
+}
+.arjun{
+    padding-top: 200px;
+    color: rgb(252, 164, 82);
+}

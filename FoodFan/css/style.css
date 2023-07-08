@@ -1,0 +1,25 @@
+header{
+    background-image: url('../img/fwall.jpg'); 
+    /* filter: brightness(80%); */
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 75vh;
+   
+}
+body {
+    font-family: "Trirong", serif;
+  }
+.hvr:hover {
+    text-decoration: underline;
+    font-family: monospace;
+}
+header1{
+    background-image: url('../img/bg.jpg'); 
+    /* filter: brightness(80%); */
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 75vh;
+   
+}
